@@ -1,0 +1,46 @@
+.input-lg{
+	color: #333;
+	font-size: 16px;
+	border-width: 0px;
+	border-style: dashed;
+	border-color: #DDDDDD;
+	border-radius: 0;
+	box-shadow: 1px 1px 2px #aaa;
+	
+}
+.margin-top-20{margin-top:20px}
+.label-input-lg{
+	color: #777;
+	font-size: 18px;
+	line-height: 46px;
+	text-align: right;
+}
+.x9-validate-msg-box{
+	height:48px;
+	position: absolute;
+	z-index: 99;
+	padding: 15px;
+	color: #fff;
+	background: #d9534f;
+	box-shadow: 2px 2px 5px #aaa;
+	transition: all .5s;
+	animation: floatAnim 1s linear infinite;
+	-webkit-animation:floatAnim 1s linear infinite;
+}
+.x9-validate-msg-box .arrow-down{
+	display: block;
+	position: absolute;
+	left:30%;
+	top:46px;
+	width: 0;
+	height: 0;
+	border-color: #d9534f transparent transparent transparent ;
+	border-width: 10px;
+	border-style: solid;
+}
+@-webkit-keyframes floatAnim{
+	0%{margin-top:0}
+	50%{margin-top:-3px}
+	100%{margin-top:0}
+}
+
