@@ -1,5 +1,6 @@
-  
-
+#X9-validate
+X9表单校验  
+只需要在input中添加一个x9-validate属性即可，支持多重校验  
 在input中添加属性x9-validate，如：  
 ```
 <input type="text" class="col-sm-6 input-lg" x9-validate="email" placeholder="这里只能输入的必须是邮箱格式"/>
